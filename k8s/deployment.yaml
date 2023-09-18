@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-api
     spec:
       containers:
-        - image: quay.io/jauskalnis/pipelines-vote-api:$DATE_NOW
+        - image: quay.io/jauskalnis/pipelines-vote-api
           imagePullPolicy: Always
           name: pipelines-vote-api
           ports:
